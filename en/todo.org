@@ -1,0 +1,12 @@
+* DONE quitar student
+* DONE quitar cita
+* DONE quitar prepa
+* DONE poner que ya acabé
+* DONE quitar (casi todos los) personal skills
+* DONE cambiar correo por el de la Facultad
+* DONE poner sección de publicaciones
+  - agregar la del grupo Golem
+* DONE poner sección de research talks
+* DONE quitar intereses
+* DONE arreglar personal details
+* DONE agregar proyectos, página web y github

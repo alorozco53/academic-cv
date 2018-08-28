@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper,sans]{moderncv} %% Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper,
+%%legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage[utf8]{inputenc} %% codificación para la inserción acentos y otros carácteres especiales
+\usepackage[T1]{fontenc} %% codificación para la impresión de acentos y otros carácteres especiales
+\usepackage[english]{babel}
+\graphicspath{{../images/}}
+\moderncvstyle{casual} %% CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} %% CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%% \usepackage{lipsum} %% Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{multicol}
+\AfterPreamble{\hypersetup{colorlinks=true}}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Albert Manuel} % Your first name
+\familyname{Orozco Camacho} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+\title{Estudiante / Ayudante de Asignatura}
+\address{Av. Río Mixcoac 356 Int. 404 Del. Benito Juárez}{03240 Ciudad de México, CDMX, México}
+\mobile{(+52 1) 55 3262 1338}
+\email{alorozco.patriot53@gmail.com}
+\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"La science n'a pas de patrie, parce que le savoir est le patrimoine de l'humanité" -- Louis Pasteur}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Educación}
+
+\cventry{2012--}{Licenciatura}{
+  Facultad de Ciencias, Universidad Nacional Aut\'{o}noma de M\'{e}xico (UNAM)}{Ciudad de México}{\textit{Promedio general -- 8.82 / 10}
+}{Ciencias de la Computación (será concluído durante 2017)}
+\cventry{2009--2012}{Bachillerato}{
+  Prepa Tec de Monterrey, Campus Guadalajara}{Guadalajara, Jalisco, México}{\textit{Promedio general -- 91 / 100}
+}{Título de bachillerato}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades adicionales}
+
+\subsection{Lenguajes de programación y software}
+\begin{multicols}{3}
+\cvitem {}
+{\includegraphics[width=3cm,height=1.5cm]{java}}
+\cvitem {}{\includegraphics[width=3cm,height=0.8cm]{python}}
+\cvitem {}{\includegraphics[width=3cm,height=1.5cm]{c}}
+\end{multicols}
+\begin{multicols}{3}
+\cvitem {}{\includegraphics[width=3cm,height=0.8cm]{haskell}}
+\cvitem {}{\includegraphics[width=3cm,height=0.8cm]{matlab}}
+\cvitem {}{\includegraphics[width=3cm,height=1.5cm]{swipl}}
+\end{multicols}
+\begin{multicols}{3}
+\cvitem {}{\includegraphics[width=3cm,height=1.5cm]{cpp}}
+\cvitem {}{\includegraphics[width=3cm,height=0.8cm]{numpy}}
+\cvitem {}{\includegraphics[width=3cm,height=0.8cm]{scipy}}
+\end{multicols}
+\begin{multicols}{3}
+\cvitem {}{\includegraphics[width=3cm,height=1.5cm]{r}}
+\cvitem {}{\includegraphics[width=3cm,height=0.8cm]{coq}}
+\cvitem {}{\includegraphics[width=3cm,height=0.8cm]{postgresql}}
+\end{multicols}
+\newpage
+\renewcommand{\listitemsymbol}{-~}
+\subsection{Software Adicional}
+\cvlistdoubleitem{\LaTeX}{GNU Emacs}
+\cvlistdoubleitem{Microsoft Office}{Tensorflow}
+\cvlistdoubleitem{CMU Sphinx voice recognizer}{ScraPy}
+\cvlistdoubleitem{Git version control system}{Theano}
+\cvlistdoubleitem{Ionic Framework}{Javascript}
+\section{Habilidades personales}
+\cvlistitem{Habilidad para llevar a cabo problemas complejos.}
+\cvlistitem{Habilidad para abstraer las características más importantes de una tarea dada.}
+\cvlistitem{Pensamiento crítico.}
+\cvlistitem{Habilidad para trabajar bajo presión.}
+\cvlistitem{Habilidad para dar soluciones eficientes en problemas de programación..}
+
+\section{Áreas de interés}
+\cvlistitem{Ciencias de la computación}
+\cvlistitem{Inteligencia artificial}
+\cvlistitem{Aprendizaje automático}
+\cvlistitem{Programación funcional}
+\cvlistitem{Razonamiento automatizado}
+\cvlistitem{Teoría de los lenguajes de programación}
+\cvlistitem{Teoría de la computación}
+\cvlistitem{Matemáticas discretas}
+\cvlistitem{Robótica}
+
+
+\section{Experiencia}
+\cventry{2016-}{Ayudante de asignatura A (profesor adjunto) en la Facultad de Ciencias de la UNAM}
+        {Trabajo pagado}
+        {Actualmente enseño en el curso de \href{https://sites.google.com/site/automataslengformales20172/}{Autómatas y Lenguajes Formales}. Fui ayudante para el curso de \href{https://sites.google.com/site/lengprog20162/}{Lenguajes de Programación} durante el semestre de primavera de 2016, así como para el \href{https://sites.google.com/a/ciencias.unam.mx/estructuras-discretas/home}{laboratorio de Estructuras Discretas} y \href{https://sites.google.com/site/logcompunam20171/home}{Lógica Computacional} durante el semestre de otoño de 2016. Todos los cursos mencionados son parte del plan de estudios de Ciencias de la Computación}
+        {}{}{}
+\cventry{2013-2015}{Estudiante / investigador en el \textit{Grupo Golem} de la UNAM}
+        {Actividad extracurricular}
+        {El Grupo Golem es un grupo de investigación del IIMAS (Instituto de Investigaciones en Matem\'{a}ticas Aplicadas y en Sistemas) cuyo principal objetivo es modelar lainteracción cognitiva entre seres humanos y computadoras; toda la investigación se unifica en un robot de servicio que compite internacionalmente en la competencia Robocup@Home; la página web del grupo es \href{http://golem.iimas.unam.mx/home.php?lang=en&sec=home}{ésta}}
+        {El líder del Grupo Golem es el \href{http://turing.iimas.unam.mx/~luis/}{Dr. Luis A. Pineda}}{}{}
+\cventry{2012-2013}{Estudiante / investigador en el Departamento de Ciencias de la Computación del IIMAS, UNAM}
+        {Actividad extracurricular}
+        {Trabajé junto con el \href{http://turing.iimas.unam.mx/~ivanvladimir/}{Dr. Ivan V. Meza} con reconocedores de voz, y repliqué un experimento en el cual un robot aprende a pasar de balbuceos a palabras simples mediante la interacción con un maestro humano}
+        {}{}{}
+
+\section{Otras Actividades / Talleres}
+
+\cventry{2017}
+        {Voluntario en \href{http://technovationmx.org}{Technovation Challenge}}{Voluntariado}
+        {El evento trata de fomentar la programación y emprendimiento a niñas de secundaria y preparatoria. Empecé a ayudar en la logística de una de las eliminatorias regionales durante el mes de mayo en la Ciudad de México}
+        {}{}
+
+\cventry{2016-2017}
+        {Actualmente trabajo en mi tesis de licenciatura, la cual es un requisito para graduarme en la UNAM}{Tesis}
+        {Estoy construyendo un generador automático de memes, utilizando una gran cantidad de imágenes obtenidas de Internet para entrenar una red neuronal profunda}
+        {}{}
+
+\cventry{2016}
+        {Participé en el segundo ``Jakatón'' anual (hackathon de lingüística computacional)}{Hackathon}
+        {Se llevó a cabo en Cholula, Puebla, México}{}{}
+
+\cventry{2016}
+        {Participé en una de las tareas del ``Semantic Evaluation'' (\href{http://alt.qcri.org/semeval2016/}{SemEval}) 2016}{Investigación}{Fui parte del equipo colaborativo entre el LIPN (Laboratoire d'Informatique du Paris Nord) y el IIMAS, en el cual se sometió un artículo que fue aceptado en esta ``competencia'' de lingüística computacional}
+        {El título del artículo es ``Random Forest Regression Experiments on Align-and-Differentiate and Word Embeddings penalizing strategies''}
+        {}
+
+\cventry{2015}{Fui a la \href{https://www.ee.washington.edu/news/2015JelinekWorkshopSummerSchool.html}{Jelinek Summer School on Human Language Technologies}, edición 2015}
+        {Escuela de verano}
+        {Se trató de un seminario introductorio de dos semanas acerca de temas de vanguardia en los campos del reconocimietno del habla, aprendizaje automático y procesamiento de lenguaje natural}{Se llevó a cabo en la University of Washington, Seattle, EE.UU.}{Recibí una beca por parte de The North American Chapter of the Association for Computational Linguistics (NAACL) para ir a la escuela de verano.}
+
+\cventry{2015}{Participé en el \href{http://naacl.org/reports/emerging_regions/Jakaton_report_apr2015.pdf}{primer hackathon mexicano de lingüística computacional}}{Hackathon}{Hice equipo con un amigo mío para llegar a ser finalistas y obtener una mención honorífica}{}{}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\cvitemwithcomment{Español}{Lengua materna}{}
+\cvitemwithcomment{Inglés}{Competencia bilingüe}{Completamente fluído}
+\cvitemwithcomment{Francés}{Competencia totalmente profesional}{Fluidez principalmente en la escritura y lectura}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Intereses}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Ficción científica}{Robótica}
+\cvlistdoubleitem{Fútbol asociación}{Fútbol americano}
+\cvlistdoubleitem{Ciencia (en general)}{Hacer ejercicio}
+\section{Datos personales}
+\cvitem{Fecha de nacimiento}{16 de julio de 1994}
+\cvitem{Dirección de casa}{Av. Río Mixcoac 356 Int. 404 Del. Benito Juárez. 03240 Ciudad de México, CDMX, México}
+\cvitem{Idiomas}{Español, inglés y francés}
+\cvitem{Teléfono móvil}{(+52 1) 55 3262 1338}
+
+\end{document}
